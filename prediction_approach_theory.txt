@@ -1,0 +1,14 @@
+Axis Bank Machine learning Challenge :
+I have followed following  steps in order to solve the challenge. 
+step 1 : Data preprocessing 
+1. After importing dataset I have found out the columns with null value and filled with mode in categorical columns and mean in numerical data. 
+2. After that for categorical data encoding(using get_dummies() function of scikit learn) is done. 
+3. Finally matched the columns for test dataset and train dataset and cleaned the non matching columns.
+
+step 2 : Model training :
+1. Trained the data using XGBoost classifier(from scikit learn library) with default parameter. 
+2. Finally predicted the result for test data and achived accuracy of 0.78210
+ 
+step 3 : Parameters tunning :
+1. Trained modell again by changing parameter like n_estimators and learning rate.
+2. Finally achieved accruacy of 0.7965  
